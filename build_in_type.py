@@ -7,7 +7,7 @@ import sys
 
 class Emergency():
     def __init__(self):
-        rospy.init_node("emergency_stop")
+        rospy.init_node("emergency_stop_build_in_type")
         self.main()
     
     def main(self):
