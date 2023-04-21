@@ -8,9 +8,9 @@
 詳しくは、ソースコードをご覧ください。
 
 ボタンが押されたら停止したいlaunchファイル内に、
-'''
+```
 <node pkg="new_emergency_stop" name="emergency_stop" type="emergency_stop.py" required="true" output="screen" />
-'''
+```
 を追加します。
 
 Arduinoに書き込み、launchファイルを起動させます。
